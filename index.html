@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -34,7 +35,8 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -42,29 +44,77 @@
     <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
+    <!-- Navbar Start navbar fixed-bottom navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn -->
+    <nav class="navbar navbar-light bg-light border-top navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom">
+        <!-- <a href="index.html" class="navbar-brand d-block d-lg-none">
             <h1 class="text-primary fw-bold m-0">Lentera Cita</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">Visi Misi</a>
-                <a href="#service" class="nav-item nav-link">Program Unggulan</a>
-                <a href="#team" class="nav-item nav-link">Fun Fact</a>
-            </div>
-            
-            <!-- <div class="navbar-nav me-auto py-0">
-                <a href="#project" class="nav-item nav-link">Projects</a>
-                <a href="#team" class="nav-item nav-link">Team</a>
-                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div> -->
-        </div>
+        </button> -->
+        <div class="navbar-nav nav-justified w-100">
+            <!-- <a href="#home" class="nav-item nav-link active">Home</a> -->
+            <li class="nav-item">
+                <a href="#" class="nav-link text-center">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+                    <span class="small d-block">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link text-center">
+                    <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z" />
+                    </svg>
+                    <span class="small d-block">Visi Misi</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#service" class="nav-link text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                        class="bi bi-calendar-week" viewBox="0 0 16 16">
+                        <path
+                            d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                        <path
+                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                    </svg>
+                    <span class="small d-block">Programs</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#team" class="nav-link text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                        class="bi bi-calendar-week" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                    <span class="small d-block">About</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonial" class="nav-link text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                        class="bi bi-calendar-week" viewBox="0 0 16 16">
+                        <path
+                            d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        <path
+                            d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                    </svg>
+                    <span class="small d-block">Fun Fact</span>
+                </a>
+            </li>
+            <!-- <a href="#about" class="nav-item nav-link">Visi Misi</a>
+            <a href="#service" class="nav-item nav-link">Program</a>
+            <a href="#team" class="nav-item nav-link">Fun Fact</a>
+        </div> -->
     </nav>
     <!-- Navbar End -->
 
@@ -81,8 +131,13 @@
                     <div class="d-flex align-items-center pt-5">
                         <!-- <a class="btn btn-lg-square btn-primary me-3" href=""><i class="fab fa-instagram"></i></a>
                         <h3 class="text-primary">@lentaracitafasilkom</h3> -->
-                        <a class="btn btn-primary py-3 px-2 mt-2 text-center" href="https://www.instagram.com/lenteracitafasilkom/"><i class="fab fa-2x fa-instagram mx-2"></i></a>
-                        <a class="text-primary text-lg-center mb-3 text-center mx-3 pt-4" href="https://www.instagram.com/lenteracitafasilkom/"><h3 class="text-primary pt-2">Yuk Follow!</h3></a>
+                        <a class="btn btn-primary py-3 px-2 mt-2 text-center"
+                            href="https://www.instagram.com/lenteracitafasilkom/"><i
+                                class="fab fa-2x fa-instagram mx-2"></i></a>
+                        <a class="text-primary text-lg-center mb-3 text-center mx-3 pt-4"
+                            href="https://www.instagram.com/lenteracitafasilkom/">
+                            <h3 class="text-primary pt-2">Yuk Follow!</h3>
+                        </a>
                         <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
@@ -101,7 +156,8 @@
 
 
     <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
@@ -111,8 +167,8 @@
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -125,7 +181,7 @@
     <div class="container-xxl py-6" id="about">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow">
                     <div class="d-flex align-items-center mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
                             <h1 class="display-1 mb-0">01</h1>
@@ -133,15 +189,17 @@
                         </div>
                         <h3 class="lh-base mb-0">Visi dan Misi Lentera Cita Fasilkom 01</h3>
                     </div>
-                    <p class="mb-4">Badan Eksekutif Mahasiswa Fasilkom Unsika yang Responsif, Kritis dan Dinamis dalam mewujudkan aspirasi serta kesejahteraan mahasiswa Fasilkom Unsika melalui pendekatan yang Eksploratif</p>
+                    <p class="mb-4">Badan Eksekutif Mahasiswa Fasilkom Unsika yang Responsif, Kritis dan Dinamis dalam
+                        mewujudkan aspirasi serta kesejahteraan mahasiswa Fasilkom Unsika melalui pendekatan yang
+                        Eksploratif</p>
                     <p class="mb-4 mt-3">Nilai : </p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Responsif</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Kritis</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Dinamis</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Eksploratif</p>
-                    
+
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow" data-wow-delay="0.5s">
                     <!-- <div class="row g-3 mb-4">
                         <div class="col-sm-6">
                             <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
@@ -154,22 +212,27 @@
                         <h5 class="border-end pe-3 me-3 mb-0">Misi</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">01</h2>
                     </div>
-                    <p class="mb-4">Mengadvokasikan aspirasi mahasiswa Fasilkom Unsika secara  responsif guna mencapai kesejahteraan mahasiswa Fasilkom Unsika yang dinamis.</p>
+                    <p class="mb-4">Mengadvokasikan aspirasi mahasiswa Fasilkom Unsika secara responsif guna mencapai
+                        kesejahteraan mahasiswa Fasilkom Unsika yang dinamis.</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Misi</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">2</h2>
                     </div>
-                    <p class="mb-0">Menciptakan lingkungan kerja yang suportif dan apresiatif serta memberikan kebebasan bagi fungsionaris untuk mengeksplorasi ide dan gagasannya.</p>
+                    <p class="mb-0">Menciptakan lingkungan kerja yang suportif dan apresiatif serta memberikan kebebasan
+                        bagi fungsionaris untuk mengeksplorasi ide dan gagasannya.</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Misi</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">3</h2>
                     </div>
-                    <p class="mb-0">Membangkitkan rasa kekeluargaan mahasiswa Fasilkom Unsika serta kritis dalam menanggapi isu mahasiswa di bidang sosial, politik, dan lingkungan hidup baik di lingkup kampus, daerah maupun nasional.</p>
+                    <p class="mb-0">Membangkitkan rasa kekeluargaan mahasiswa Fasilkom Unsika serta kritis dalam
+                        menanggapi isu mahasiswa di bidang sosial, politik, dan lingkungan hidup baik di lingkup kampus,
+                        daerah maupun nasional.</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="border-end pe-3 me-3 mb-0">Misi</h5>
                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">4</h2>
                     </div>
-                    <p class="mb-0">Membangun sinergitas dengan seluruh elemen Fasilkom Unsika baik di dalam maupun di luar.</p>
+                    <p class="mb-0">Membangun sinergitas dengan seluruh elemen Fasilkom Unsika baik di dalam maupun di
+                        luar.</p>
                 </div>
             </div>
         </div>
@@ -180,66 +243,79 @@
     <!-- Service Start -->
     <div class="container-fluid bg-light my-5 py-6" id="service">
         <div class="container">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-5 mb-5 wow">
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Program Unggulan</h1>
                 </div>
-               
+
             </div>
             <div class="row g-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-tasks fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
-                            <h4 class="mb-3">Comfair</h4>
-                            <span>Bersinergi dengan Himpunan, Civitas Fasilkom, serta seluruh pihak terkait agar mewujudkan Seminar Nasional yang bergengsi dan bermanfaat luas. Menyelaraskan proker Himpunan mulai dari bentuk Workshop, Seminar, Bootcamp/Study Club, Perlombaanagar menjadu suatu rangkaian yang saling berkaitan dan semuanya ini bermuara pada Ajang Pameran karya di Compfair ini.</span>
+                            <h4 class="mb-3">Compfair Extended</h4>
+                            <span>Bersinergi dengan Himpunan, Civitas Fasilkom, serta seluruh pihak terkait agar
+                                mewujudkan Seminar Nasional yang bergengsi dan bermanfaat luas. Menyelaraskan proker
+                                Himpunan mulai dari bentuk Workshop, Seminar, Bootcamp/Study Club, Perlombaanagar
+                                menjadu suatu rangkaian yang saling berkaitan dan semuanya ini bermuara pada Ajang
+                                Pameran karya di Compfair ini.</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-code-branch fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Career Day</h4>
-                            
+
                             <span>Kegiatan berorientasi karir yang menunjang dan menjadi tujuan lulusan Fasilkom.</span>
-                            <p>•	Talk Show dengan pemateri ahli (bekerja sama dengan dev fest GDSC, Pihak Civitas)
-                            <br>•	Memjaring Relasi dengan alumni
-                            <br>•	Stand Career : 1. bisa mitra perusahaan pekerjaan, bimbel atau instansi akademik
-                            <br>•	serta stand jenis pekerjaan seperti stand Data Scientist, UI/UX, System Audit, System Analyst, Cyber Security
-                                <br>•	Hiburan yang mengiringi jalan nya stand di panggung utama (UKM, UKF, Guest Star, dan semua yang bisa mengisi)
-                                <br>•	Tes TOEFL Gratis
-                                <br>•	Review CV Secara langsung, Pengarahan dan pelatihan mengenai CV</p>
-                           
+                            <p>• Talk Show dengan pemateri ahli (bekerja sama dengan dev fest GDSC, Pihak Civitas)
+                                <br>• Memjaring Relasi dengan alumni
+                                <br>• Stand Career : 1. bisa mitra perusahaan pekerjaan, bimbel atau instansi akademik
+                                <br>• serta stand jenis pekerjaan seperti stand Data Scientist, UI/UX, System Audit,
+                                System Analyst, Cyber Security
+                                <br>• Hiburan yang mengiringi jalan nya stand di panggung utama (UKM, UKF, Guest Star,
+                                dan semua yang bisa mengisi)
+                                <br>• Tes TOEFL Gratis
+                                <br>• Review CV Secara langsung, Pengarahan dan pelatihan mengenai CV
+                            </p>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-school fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Sekolah Advokasi</h4>
-                            
+
                             <span>Pelatihan pendampingan untuk menghadapi isu-isu serta aksi-aksi yang ada<br>
-                                •	Tujuan : Agar mahasiswa memahami esensi dari setiap aksi<br>
-                                •	Silabus : Orasi, Lobbying, Manajemen Aksi, Propaganda</span>
+                                • Tujuan : Agar mahasiswa memahami esensi dari setiap aksi<br>
+                                • Silabus : Orasi, Lobbying, Manajemen Aksi, Propaganda</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 wow" data-wow-delay="0.3s">
                     <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
                         <div class="bg-icon flex-shrink-0 mb-3">
                             <i class="fa fa-female fa-2x text-white"></i>
                         </div>
                         <div class="ms-sm-4">
                             <h4 class="mb-3">Kajian Keperempuanan</h4>
-                            <span>Kita mengembangkan keputrian yang sebelumnya sudah ada menjadi lebih baik dan sesuai kebutuhan sekarang, Banyak isu yang harus kita kaji dan edukasi untuk kesejahteraan Mahasiswa Fasilkom khususnya Perempuan. Dan kajian ini kita juga tidak hanya mengkhususkan untuk Mahasiswi Fasilkom saja. Pembahasan yang akan dibawa nanti adalah Self Management, HAM, lebih menjurus lagi Kekerasan terhadap perempuan, Kekerasan Seksual yang sedang marak terjadi dan kita cegah agar tidak ada di lingkungan Fasilkom Unsika.</span>
+                            <span>Kita mengembangkan keputrian yang sebelumnya sudah ada menjadi lebih baik dan sesuai
+                                kebutuhan sekarang, Banyak isu yang harus kita kaji dan edukasi untuk kesejahteraan
+                                Mahasiswa Fasilkom khususnya Perempuan. Dan kajian ini kita juga tidak hanya
+                                mengkhususkan untuk Mahasiswi Fasilkom saja. Pembahasan yang akan dibawa nanti adalah
+                                Self Management, HAM, lebih menjurus lagi Kekerasan terhadap perempuan, Kekerasan
+                                Seksual yang sedang marak terjadi dan kita cegah agar tidak ada di lingkungan Fasilkom
+                                Unsika.</span>
                         </div>
                     </div>
                 </div>
@@ -252,7 +328,7 @@
     <!-- Team Start -->
     <div class="container-xxl py-6 pb-5" id="team">
         <div class="container">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-5 mb-5 wow">
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Kenalan lebih jauh</h1>
                 </div>
@@ -261,7 +337,7 @@
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow">
                     <div class="team-item position-relative">
                         <img class="img-fluid rounded" src="img/team-2.png" alt="">
                         <div class="team-text bg-white rounded-end p-4">
@@ -273,7 +349,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <img class="img-fluid rounded" src="img/team-1.png" alt="">
                         <div class="team-text bg-white rounded-end p-4">
@@ -285,7 +361,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -295,21 +371,22 @@
     <!-- Testimonial Start -->
     <div class="container-fluid bg-light py-5 my-5" id="testimonial">
         <div class="container-fluid py-5">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Fun Fact</h1>
+            <h1 class="display-5 text-center mb-5 wow">Fun Fact</h1>
             <div class="row justify-content-center">
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="testimonial-left h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
+                        <img class="img-fluid wow fadeIn" src="img/testimonial-1.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-1.png" alt="">
-                        
+
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 wow" data-wow-delay="0.5s">
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.png" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-1.png" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
@@ -331,7 +408,8 @@
                         </div>
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.png" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-2.png" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
@@ -347,12 +425,12 @@
                             <h5>Amanda Febrianti</h5>
                             <span>Calon Wakil Ketua BEM</span>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="testimonial-right h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.png" alt="">
+                        <img class="img-fluid wow fadeIn" src="img/testimonial-1.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.png" alt="">
                         <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-2.png" alt="">
                     </div>
@@ -365,19 +443,20 @@
 
     <!-- Copyright Start -->
     <div class="container-fluid bg-dark text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">Lentera Cita Fasilkom 01</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <!-- Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">Lentera Cita Fasilkom 01</a>, All Right
+                    Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!-- Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
                         <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Copyright End -->
 
